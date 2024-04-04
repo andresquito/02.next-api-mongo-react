@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import { useRouter } from "next/navigation";
 
-const uri = 'http://localhost:3000/api/student'
+const uri = 'mongodb+srv://admin:12345@cluster0.jdmcggn.mongodb.net/DB_Student'
 
 const BtnDelete = ({ id }) => {
   const router = useRouter()
