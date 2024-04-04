@@ -1,0 +1,21 @@
+POST http://localhost:3000/api/student
+
+{
+    "name": "Paul Castro",
+    "age": 32
+}
+
+###
+GET http://localhost:3000/api/student/
+
+
+###
+DELETE http://localhost:3000/api/student/660da412fd9496d496370bb7660da412fd9496d496370bb7
+
+###
+PUT http://localhost:3000/api/student/660da528fd9496d496370bb9
+
+{
+    "name": "Andrés Yépez",
+    "age": 38
+}
