@@ -1,7 +1,7 @@
 "use client";
 import Form from "../components/Form";
 import { useRouter } from "next/navigation";
-const uri = "mongodb+srv://admin:12345@cluster0.jdmcggn.mongodb.net/DB_Student";
+const uri = "http://localhost:3000/api/student";
 
 const Create = () => {
   const router = useRouter();
