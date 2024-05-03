@@ -16,7 +16,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body >
         <div className="h-screen">
-          <NavBar />
+          {/* btn crear comentado */}
+          {/* <NavBar /> */}
           <main className="mt-8 mx-auto p-4">{children}</main>
         </div>
       </body>

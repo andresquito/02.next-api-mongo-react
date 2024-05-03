@@ -29,11 +29,13 @@ const Show = async () => {
             <p>{element.age}</p>
           </div>
           <div className="flex mt-4 space-x-3 md:mt-6">
-            <Link 
+            {/* btn update comentado */}
+            {/* <Link 
             href={`/edit/${element._id}`} 
             className=" inline-flex  items-center px-4 py-2 text-sm   font-medium text-center text-white bg-violet-400 hover:bg-violet-600 focus:ring-4 focus:outline-none rounded-lg"
-            >Update</Link>
-            <BtnDelete id={element._id} />
+            >Update</Link> */}
+            {/* btn delete comentado */}
+            {/* <BtnDelete id={element._id} /> */}
           </div>
         </div>
       ))}
